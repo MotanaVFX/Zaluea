@@ -1,4 +1,4 @@
-var Annoucments For big things = [
+var updates = [
     {message: "Welcome to the Release of My proxy (This is still in beta)!"}
 ];
 var updatespage = document.getElementById("updatespage");
