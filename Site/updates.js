@@ -1,5 +1,5 @@
-var updates = [
-    {message: "Welcome to the 3rd official release of Andyum!"}
+var Annoucments For big things = [
+    {message: "Welcome to the Release of My proxy (This is still in beta)!"}
 ];
 var updatespage = document.getElementById("updatespage");
 for(let item of updates) {
