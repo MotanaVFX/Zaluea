@@ -2,47 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <link rel="icon" type="image/x-icon" href="./Site/images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./site/images/logo.png">
     <link rel="stylesheet" href="index.css">
-    <title>Schoology | Home</title>
+    <title>Futuristic Site | Home</title>
 </head>
 <body>
-     <div class="bar">
-        <div class="main_title"><a href="/">Schoology</a></div>
-        <div class="button games"><a href="games.html">Games</a></div>
-        <div class="button ytlink" onclick="quickLink('hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-')">YouTube</div>
-        <div class="button tabconfig" onclick="settings()">Tab Config</div>
-        <div class="button updates_btn" onclick="updates()">Updates</div>
-        <div class="settings" id="settings">
-
-            <div class="settingsstuff title_main">Settings</div>
-            <center>
-                <input class="setTitle" placeholder="Title" onkeyup="titleSet(this.value)">
-                <input class="setIco" placeholder="Icon" onkeyup="iconSet(this.value)">
-                <div class="resetButton" onclick="reset()">Reset</div>
-            </center>
-        </div>
-         <div class="Announcements" id="Announcements">
-            <div class="updatetitle title_updates">Announcements</div>
-            <center>
-                <div class="updatespage" id="updatespage"></div>
-            </center>
-        </div>
-    </div>
-    <div class="title">Greatest Proxy </div>
-    
-    <center>
-        <form>
-            <input placeholder="Type where you want to go">
-            <div class="links">
-        </form>
-    </center>
-    <script src="uv/uv.bundle.js"></script>
-    <script src="uv/uv.config.js"></script>
-    <script src="index.js"></script>
-    <script src="updates.js"></script>
-    <script src="site.js"></script>
-</body>
-</html>
+    <nav>
+        <a href="#home" class="logo">Futuristic Site</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="nav-toggle-icon"></span>
+        </label>
+        <ul class="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Welcome to the Future</h1>
+        <p>Experience cutting-edge technology and design</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a company dedicated to pushing the boundaries of what is possible with technology and design. Our team of experts is constantly researching and experimenting with the latest trends and techniques to bring you the most advanced and visually stunning experiences.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Virtual Reality Development</li>
+                <li>Advanced Web Design</li>
+                <li>Artificial Intelligence Integration</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2023 Futuristic Site</p>
